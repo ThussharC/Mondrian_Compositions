@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Composition 1921</title>
+    <style>
+        body{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            width: 100vh;
+        }
+        .container{
+            background-color: #1A120B;
+            width: 750px;
+            height: 750px;
+            display: grid;
+            grid-template-columns: 70px 180px 200px 240px; 
+            grid-template-rows: 10px 130px 320px 70px 40px 80px;
+            gap: 20px;
+            border: 2px solid black;
+        }
+        .lb1{
+            background-color: #bdcdd6 ;
+            grid-row: span 2;
+            grid-column: span 2;
+
+            }
+
+        .or1{
+            background-color: #e14d2a;
+            grid-column: span 2;
+        }
+        .or2{
+            background-color: #e14d2a;
+            grid-column: span 2;
+            grid-row: span 2;
+            
+        }
+        .db1{
+            background-color: #0E2954;
+            
+        }
+        .lb2{
+            background-color: #9DB2BF;
+        }
+        .db2{
+            background-color: #0E2954;
+        }
+        .lb3{
+            background-color: #9DB2BF;
+            grid-row: span 2;
+
+        }
+        .lb4{
+            background-color:   #bdcdd6;
+            grid-row: span 2;
+        }
+        .lb5{
+            background-color: #9DB2BF;
+            grid-row: span 3;
+        }
+        .lb6{
+            background-color:   #bdcdd6;
+            grid-row: span 2;
+        }
+        .black{
+            background-color: BLACK;
+        }
+        .dw1{
+            background-color: #C1D085;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="lb1"></div>
+        <div class="or1"></div>
+        <div class="or2"></div>
+        <div class="db1"></div>
+        <div class="lb2"></div>
+        <div class="db2"></div>
+        <div class="lb3"></div>
+        <div class="lb4"></div>
+        <div class="lb5"></div>
+        <div class="lb6"></div>
+        <div class="black"></div>
+        <div class="dw1"></div>
+    </div>
+</body>
+</html>
