@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mondrian composition II</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100vh;
+            height: 100vh;
+            background-color: whitesmoke;
+
+        }
+
+        .container{
+            display: grid;
+            width: 500px;
+            height: 740px;
+            background-color: black;
+            grid-template-columns:100px 350px 30px;
+            grid-template-rows:300px 300px 40px 70px;
+            gap: 10px;
+        }
+
+        .wh1{
+            background-color: bisque;
+            margin-bottom: 20px ;
+        }
+
+        .red{
+            background-color: red;
+            grid-column: span 2;
+            grid-row: span 2;
+        }
+
+        .wh2{
+            background-color: bisque;
+        }
+
+        .db1{
+            background-color: blue;
+            grid-row: span 2;
+            
+        }
+
+        .wh3{
+            background-color: bisque;
+            grid-row: span 2;
+            margin-right: 10px;
+            
+        }
+
+        .wh4{
+            background-color: bisque;                        
+            
+        }
+
+        .yel{
+            background-color: yellow;
+            margin-top: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="wh1"></div>
+        <div class="red"></div>
+        <div class="wh2"></div>
+        <div class="db1"></div>
+        <div class="wh3"></div>
+        <div class="wh4"></div>
+        <div class="yel"></div>
+    </div>
+</body>
+</html>
