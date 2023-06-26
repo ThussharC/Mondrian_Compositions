@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mondrian Composition C</title>
+    <style>
+        body{
+            width: 100vh;
+            height: 100vh;
+        }
+
+        .container{
+            width: 655px;
+            height: 580px;
+            background-color: black;
+            display: grid;
+            grid-template-rows: 250px 120px 150px 30px;
+            grid-template-columns: 50px 250px 150px 175px;
+            gap: 10px;
+
+        }
+
+        .RD1{
+            background-color: red;
+            grid-column: span 2;
+        }
+
+        .DW1{
+            background-color: #EEE6FE;
+            grid-column: span 2;
+        }
+
+        .DW2{
+            background-color: #EEE6FE;
+            grid-column: span 2;
+        }
+
+        .DW3{
+            background-color: #EEE6FE;
+            grid-column: span 2;
+        }
+
+        .YL1{
+            background-color: goldenrod;
+            grid-row: span 2;
+        }
+
+        .DW4{
+            background-color: #EEE6FE;
+            grid-row: span 2;
+        }
+
+        .DB1{
+            background-color: darkblue;
+        }
+
+        .DW5{
+            background-color: #EEE6FE;
+            grid-row: span 2;
+        }
+
+        .DW6{
+            background-color: #EEE6FE;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="RD1"></div>
+        <div class="DW1"></div>
+        <div class="DW2"></div>
+        <div class="DW3"></div>
+        <div class="YL1"></div>
+        <div class="DW4"></div>
+        <div class="DB1"></div>
+        <div class="DW5"></div>
+        <div class="DW6"></div>
+    </div>
+</body>
+</html>

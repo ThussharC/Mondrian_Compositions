@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mondrian Composition II - RBY </title>
+    <style>
+        . body{
+            width: 100vh;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container{
+            width: 460px;
+            height: 500px;
+            background-color: black;
+            
+            display: grid;
+            grid-template-rows: 150px 200px 50px 70px;
+            grid-template-columns: 120px 300px 20px;
+            gap: 10px;
+        }
+
+        .DW1{
+            background-color: #FFFFE8;
+            margin-bottom: 10px;
+
+        }
+
+        .MN1{
+            background-color: #950101;
+            grid-row: span 2;
+            grid-column: span 2;
+        }
+
+        .DW2{
+            background-color: #FFFFE8;
+        }
+
+        .DB1{
+            background-color: #0E2954;
+            grid-row: span 2;
+        }
+
+        .DW3{
+            background-color: #FFFFE8;
+            grid-row: span 2;
+        }
+
+        .DW4{
+            background-color: #FFFFE8;
+        }
+
+        .YL1{
+            background-color: goldenrod;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="DW1"></div>
+        <div class="MN1"></div>
+        <div class="DW2"></div>
+        <div class="DB1"></div>
+        <div class="DW3"></div>
+        <div class="DW4"></div>
+        <div class="YL1"></div>
+
+    </div>
+</body>
+</html>

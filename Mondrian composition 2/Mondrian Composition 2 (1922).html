@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mondrian Composiiton 2 - 1922</title>
+    <Style>
+        body{
+            width: 100vh;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container{
+            width: 430px;
+            height: 490px;
+            background-color: black;
+            
+            display: grid;
+            grid-template-rows: 30px 75px 150px 100px 40px 20px;
+            grid-template-columns: 15px 150px 130px 90px;
+            gap: 15px;
+        }
+        .DW1{
+            background-color: #FFFBF5;
+            grid-column: span 2;
+        }
+
+        .YL1{
+            background-color: goldenrod;
+        }
+
+        .BL1{
+            background-color: black;
+            grid-row: span 2;
+        }
+
+        .DW2{
+            background-color: #FFFBF5;
+            grid-row: span 2;
+        }
+
+        .DW3{
+            background-color: #FFFBF5;
+            grid-row: span 3;
+            grid-column: span 2;
+        }
+
+        .DW4{
+            background-color: #FFFBF5;
+            grid-row: span 3;
+            
+        }
+        .DB1{
+            background-color: darkblue;
+            
+        }
+
+        .DW5{
+            background-color: #FFFBF5;
+            grid-column: span 3;
+            grid-row: span 2;
+        }
+
+        .RD1{
+            background-color: red;
+        }
+    </Style>
+</head>
+<body>
+    <div class="container">
+        <div class="DW1"></div>
+        <div class="YL1"></div>
+        <div class="BL1"></div>
+        <div class="DW2"></div>
+        <div class="DW3"></div>
+        <div class="DW4"></div>
+        <div class="DB1"></div>
+        <div class="DW5"></div>
+        <div class="RD1"></div>
+    </div>
+
+</body>
+</html>
